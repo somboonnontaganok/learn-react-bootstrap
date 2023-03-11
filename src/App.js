@@ -11,6 +11,9 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+// import CardGroup from 'react-bootstrap/CardGroup';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 // function App() {
 //   return (
@@ -63,17 +66,114 @@ class App extends Component
             </Navbar.Collapse>
           </Container>
         </Navbar>
-        <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src="https://cdn.pixabay.com/photo/2020/07/30/10/29/woman-5450043_960_720.jpg" />
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-          </Card.Body>
-        </Card>
+        <Row style={{margin : "2px"}}>
+            <Col xs={12} lg={3}>
+              <Card>
+                <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" />
+                <Card.Body>
+                  <Card.Title>Cat Family</Card.Title>
+                  <Card.Text>
+                    This is a longer card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col xs={12} lg={3}>
+              <Card>
+                <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" />
+                <Card.Body>
+                  <Card.Title>Cat Family</Card.Title>
+                  <Card.Text>
+                    This is a longer card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col xs={12} lg={3}>
+              <Card>
+                <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" />
+                <Card.Body>
+                  <Card.Title>Cat Family</Card.Title>
+                  <Card.Text>
+                    This is a longer card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col xs={12} lg={3}>
+              <Card>
+                <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" />
+                <Card.Body>
+                  <Card.Title>Cat Family</Card.Title>
+                  <Card.Text>
+                    This is a longer card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+        </Row>
+        <Row style={{margin : "2px"}}>
+            <Col xs={12} lg={3}>
+              <Card>
+                <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" />
+                <Card.Body>
+                  <Card.Title>Cat Family</Card.Title>
+                  <Card.Text>
+                    This is a longer card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col xs={12} lg={3}>
+              <Card>
+                <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" />
+                <Card.Body>
+                  <Card.Title>Cat Family</Card.Title>
+                  <Card.Text>
+                    This is a longer card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col xs={12} lg={3}>
+              <Card>
+                <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" />
+                <Card.Body>
+                  <Card.Title>Cat Family</Card.Title>
+                  <Card.Text>
+                    This is a longer card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col xs={12} lg={3}>
+              <Card>
+                <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" />
+                <Card.Body>
+                  <Card.Title>Cat Family</Card.Title>
+                  <Card.Text>
+                    This is a longer card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+        </Row>
       </div>
     )
   }
