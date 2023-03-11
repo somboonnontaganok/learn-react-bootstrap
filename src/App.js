@@ -49,7 +49,7 @@ class App extends Component
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <div className="me-auto"></div>
-              <Nav >
+              <Nav>
                 <Nav.Link href="#home">Home</Nav.Link>
                 <Nav.Link href="#link">Link</Nav.Link>
                 <NavDropdown title="Service" id="basic-nav-dropdown">
@@ -68,7 +68,7 @@ class App extends Component
           </Container>
         </Navbar>
         <Row style={{margin : "2px"}}>
-            <Col xs={12} lg={3}>
+            <Col xs={12} md={4} lg={3}>
               <Card>
                 <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" />
                 <Card.Body>
@@ -78,10 +78,11 @@ class App extends Component
                     lead-in to additional content. This content is a little bit
                     longer.
                   </Card.Text>
+                  <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
               </Card>
             </Col>
-            <Col xs={12} lg={3}>
+            <Col xs={12} md={4} lg={3}>
               <Card>
                 <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" />
                 <Card.Body>
@@ -91,10 +92,11 @@ class App extends Component
                     lead-in to additional content. This content is a little bit
                     longer.
                   </Card.Text>
+                  <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
               </Card>
             </Col>
-            <Col xs={12} lg={3}>
+            <Col xs={12} md={4} lg={3}>
               <Card>
                 <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" />
                 <Card.Body>
@@ -104,10 +106,11 @@ class App extends Component
                     lead-in to additional content. This content is a little bit
                     longer.
                   </Card.Text>
+                  <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
               </Card>
             </Col>
-            <Col xs={12} lg={3}>
+            <Col xs={12} md={4} lg={3}>
               <Card>
                 <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" />
                 <Card.Body>
@@ -117,12 +120,13 @@ class App extends Component
                     lead-in to additional content. This content is a little bit
                     longer.
                   </Card.Text>
+                  <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
               </Card>
             </Col>
         </Row>
         <Row style={{margin : "2px"}}>
-            <Col xs={12} lg={3}>
+            <Col xs={12} md={4} lg={3}>
               <Card>
                 <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" />
                 <Card.Body>
@@ -132,10 +136,11 @@ class App extends Component
                     lead-in to additional content. This content is a little bit
                     longer.
                   </Card.Text>
+                  <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
               </Card>
             </Col>
-            <Col xs={12} lg={3}>
+            <Col xs={12} md={4} lg={3}>
               <Card>
                 <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" />
                 <Card.Body>
@@ -145,10 +150,11 @@ class App extends Component
                     lead-in to additional content. This content is a little bit
                     longer.
                   </Card.Text>
+                  <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
               </Card>
             </Col>
-            <Col xs={12} lg={3}>
+            <Col xs={12} md={4} lg={3}>
               <Card>
                 <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" />
                 <Card.Body>
@@ -158,10 +164,11 @@ class App extends Component
                     lead-in to additional content. This content is a little bit
                     longer.
                   </Card.Text>
+                  <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
               </Card>
             </Col>
-            <Col xs={12} lg={3}>
+            <Col xs={12} md={4} lg={3}>
               <Card>
                 <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" />
                 <Card.Body>
@@ -171,6 +178,7 @@ class App extends Component
                     lead-in to additional content. This content is a little bit
                     longer.
                   </Card.Text>
+                  <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
               </Card>
             </Col>
