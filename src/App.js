@@ -45,7 +45,7 @@ function BasicExample() {
         <Card style={{ width: '18rem' }}>
           {/* <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" /> */}
           <iframe
-              src="https://www.youtube.com/embed/vlDzYIIOYmM"
+              src="https://www.youtube.com/embed/OU59iqw2ORE"
               title="YouTube video"
               allowfullscreen
             ></iframe>
@@ -62,7 +62,7 @@ function BasicExample() {
       <Col xs={12} md={4} lg={3}>
         <Card style={{ width: '18rem' }}>
           {/* <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" /> */}
-          <video className="w-100" autoPlay loop muted>
+          <video className="w-100" autoPlay loop muted controls>
             <source
               src="https://mdbootstrap.com/img/video/animation-intro.mp4"
               type="video/mp4"
