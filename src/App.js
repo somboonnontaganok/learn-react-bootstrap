@@ -40,9 +40,9 @@ function BasicExample() {
             </Navbar.Collapse>
           </Container>
         </Navbar>
-    <Row style={{margin : "2px"}}>
+    <Row style={{margin : "20px"}}>
       <Col xs={12} md={4} lg={3}>
-        <Card style={{ width: '18rem', height: '33rem' }}>
+        <Card style={{ width: '20rem', height: '35rem' }}>
           {/* <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" /> */}
           <iframe
               src="https://www.youtube.com/embed/OU59iqw2ORE"
@@ -60,7 +60,7 @@ function BasicExample() {
         </Card>
       </Col>
       <Col xs={12} md={4} lg={3}>
-        <Card style={{ width: '18rem', height: '33rem'}}>
+        <Card style={{ width: '20rem', height: '35rem'}}>
           {/* <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" /> */}
           <video className="w-100" autoPlay loop muted controls>
             <source
@@ -80,7 +80,7 @@ function BasicExample() {
         </Card>
       </Col>
       <Col xs={12} md={4} lg={3}>
-        <Card style={{ width: '18rem', height: '33rem' }}>
+        <Card style={{ width: '20rem', height: '35rem' }}>
           {/* <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" /> */}
           <div className="d-flex flex-column align-items-center">
             <video className="w-75" autoPlay loop muted controls>
@@ -101,7 +101,7 @@ function BasicExample() {
         </Card>
       </Col>
       <Col xs={12} md={4} lg={3}>
-        <Card style={{ width: '18rem', height: '33rem' }}>
+        <Card style={{ width: '20rem', height: '35rem' }}>
           {/* <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" /> */}
           <div className="d-flex flex-column align-items-center">
             <video className="w-75" autoPlay loop muted controls>
