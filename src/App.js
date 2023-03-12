@@ -1,49 +1,20 @@
-// import logo from './logo.svg';
-import react, {Component} from 'react';
-import './App.css';
-// import { Form } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css"
+
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 // import CardGroup from 'react-bootstrap/CardGroup';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-// Video Section
-import VideoCarousel from './components/VideoCarousel';
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-class App extends Component 
-{
-  render() {
-    return (
-      <div>
-        <Navbar bg="light" expand="lg">
+function BasicExample() {
+  return (
+    <>
+     <Navbar bg="light" expand="lg">
           <Container>
             <Navbar.Brand href="#home">
               <img src={`${process.env.PUBLIC_URL}/apple logo 2.png`} className="img-fluid" alt="" style={{width : "50px", height : "auto"}} />
@@ -51,7 +22,7 @@ class App extends Component
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <div className="me-auto"></div>
-              <Nav>
+              <Nav >
                 <Nav.Link href="#home">Home</Nav.Link>
                 <Nav.Link href="#link">Link</Nav.Link>
                 <NavDropdown title="Service" id="basic-nav-dropdown">
@@ -65,31 +36,95 @@ class App extends Component
                     Separated link
                   </NavDropdown.Item>
                 </NavDropdown>
-                <Button variant="success">Login</Button>  
               </Nav>
             </Navbar.Collapse>
           </Container>
         </Navbar>
-        {/* xs = iPhone md = iPad lg = Note book */}
-        <Row style={{margin : "2px"}}>
-            <Col xs={12} md={12} lg={12}>
-              <Card>
-              <VideoCarousel />
-                <Card.Body>
-                  <Card.Title>Cat Video</Card.Title>
-                  <Card.Text>
-                    This is a longer card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-              </Card>
-            </Col>
-        </Row>
-      </div>
-    )
-  }
+    <Row style={{margin : "2px"}}>
+      <Col xs={12} md={4} lg={3}>
+        <Card style={{ width: '18rem' }}>
+          {/* <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" /> */}
+          <iframe
+              src="https://www.youtube.com/embed/vlDzYIIOYmM"
+              title="YouTube video"
+              allowfullscreen
+            ></iframe>
+          <Card.Body>
+            <Card.Title>Youtube</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+            <Button variant="primary">Go somewhere</Button>
+          </Card.Body>
+        </Card>
+      </Col>
+      <Col xs={12} md={4} lg={3}>
+        <Card style={{ width: '18rem' }}>
+          {/* <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" /> */}
+          <video className="w-100" autoPlay loop muted>
+            <source
+              src="https://mdbootstrap.com/img/video/animation-intro.mp4"
+              type="video/mp4"
+              allowFullScreen
+            />
+          </video>
+          <Card.Body>
+            <Card.Title>mp4 from web site</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+            <Button variant="primary">Go somewhere</Button>
+          </Card.Body>
+        </Card>
+      </Col>
+      <Col xs={12} md={4} lg={3}>
+        <Card style={{ width: '18rem' }}>
+          {/* <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" /> */}
+          <video className="w-100" autoPlay loop muted controls>
+            <source
+              src="/image/IMG_2486.mp4"
+              type="video/mp4"
+              allowFullScreen
+            />
+          </video>
+          <Card.Body>
+            <Card.Title>Cat & Granparent</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+            <Button variant="primary">Go somewhere</Button>
+          </Card.Body>
+        </Card>
+      </Col>
+      <Col xs={12} md={4} lg={3}>
+        <Card style={{ width: '18rem' }}>
+          {/* <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" /> */}
+          <video className="w-100" autoPlay loop muted controls>
+            <source
+              src="/image/IMG_2832.MOV"
+              type="video/mp4"
+              allowFullScreen
+            />
+          </video>
+          <Card.Body>
+            <Card.Title>Cat Knock</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+            <Button variant="primary">Go somewhere</Button>
+          </Card.Body>
+        </Card>
+      </Col>
+    </Row>
+    <Card className="text-center text-success">
+      <Card.Footer>Copyright &#169; 2023 by Somboon Nontaganok Studio</Card.Footer>
+    </Card>
+    </>
+  );
 }
 
-export default App;
+export default BasicExample;
