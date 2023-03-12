@@ -42,25 +42,25 @@ function BasicExample() {
         </Navbar>
     <Row style={{margin : "2px"}}>
       <Col xs={12} md={4} lg={3}>
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem', height: '33rem' }}>
           {/* <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" /> */}
           <iframe
               src="https://www.youtube.com/embed/OU59iqw2ORE"
               title="YouTube video"
               allowfullscreen
             ></iframe>
-          <Card.Body>
+          <Card.Body className="d-flex flex-column">
             <Card.Title>Youtube</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button variant="primary" size="sm" className="mt-auto w-50">Go somewhere</Button>
           </Card.Body>
         </Card>
       </Col>
       <Col xs={12} md={4} lg={3}>
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem', height: '33rem'}}>
           {/* <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" /> */}
           <video className="w-100" autoPlay loop muted controls>
             <source
@@ -69,53 +69,55 @@ function BasicExample() {
               allowFullScreen
             />
           </video>
-          <Card.Body>
+          <Card.Body className="d-flex flex-column">
             <Card.Title>mp4 from web site</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              bulk of the card's content increasing word for longer card.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+              <Button variant="primary" size="sm" className="mt-auto w-50">Go somewhere</Button> 
           </Card.Body>
         </Card>
       </Col>
       <Col xs={12} md={4} lg={3}>
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem', height: '33rem' }}>
           {/* <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" /> */}
-          <video className="w-100" autoPlay loop muted controls>
-            <source
-              src="/image/IMG_2486.mp4"
-              type="video/mp4"
-              allowFullScreen
-            />
-          </video>
-          <Card.Body>
+          <div className="d-flex flex-column align-items-center">
+            <video className="w-75" autoPlay loop muted controls>
+              <source
+                src="/image/IMG_2486.mp4"
+                type="video/mp4"
+                allowFullScreen
+              />
+            </video>
+          </div>
+          <Card.Body className="d-flex flex-column">
             <Card.Title>Cat & Granparent</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Some quick example text.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button variant="primary" size="sm" className="mt-auto w-50">Go somewhere</Button>
           </Card.Body>
         </Card>
       </Col>
       <Col xs={12} md={4} lg={3}>
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem', height: '33rem' }}>
           {/* <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" /> */}
-          <video className="w-100" autoPlay loop muted controls>
-            <source
-              src="/image/IMG_2832.MOV"
-              type="video/mp4"
-              allowFullScreen
-            />
-          </video>
-          <Card.Body>
+          <div className="d-flex flex-column align-items-center">
+            <video className="w-75" autoPlay loop muted controls>
+              <source
+                src="/image/IMG_2832.MOV"
+                type="video/mp4"
+                allowFullScreen
+              />
+            </video>
+          </div>
+          <Card.Body className="d-flex flex-column">
             <Card.Title>Cat Knock</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Some quick example text.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button variant="primary" size="sm" className="mt-auto w-50">Go somewhere</Button>
           </Card.Body>
         </Card>
       </Col>
