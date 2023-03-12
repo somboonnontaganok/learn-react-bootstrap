@@ -14,6 +14,8 @@ import Card from 'react-bootstrap/Card';
 // import CardGroup from 'react-bootstrap/CardGroup';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+// Video Section
+import VideoCarousel from './components/VideoCarousel';
 
 // function App() {
 //   return (
@@ -63,16 +65,20 @@ class App extends Component
                     Separated link
                   </NavDropdown.Item>
                 </NavDropdown>
+                <Button variant="success">Login</Button>  
               </Nav>
             </Navbar.Collapse>
           </Container>
         </Navbar>
+        {/* xs = iPhone md = iPad lg = Note book */}
         <Row style={{margin : "2px"}}>
             <Col xs={12} md={4} lg={3}>
               <Card>
-                <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" />
+              <div className="embed-responsive embed-responsive-16by9">
+                <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/uw4fxIxsAgw" allowfullscreen></iframe>
+              </div>
                 <Card.Body>
-                  <Card.Title>Cat Family</Card.Title>
+                  <Card.Title>ปรมาจารย์ ลัทธิเต๋า</Card.Title>
                   <Card.Text>
                     This is a longer card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
@@ -84,9 +90,9 @@ class App extends Component
             </Col>
             <Col xs={12} md={4} lg={3}>
               <Card>
-                <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" />
+                <VideoCarousel />
                 <Card.Body>
-                  <Card.Title>Cat Family</Card.Title>
+                  <Card.Title>แมว สลบ</Card.Title>
                   <Card.Text>
                     This is a longer card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
