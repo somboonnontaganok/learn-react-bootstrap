@@ -72,113 +72,11 @@ class App extends Component
         </Navbar>
         {/* xs = iPhone md = iPad lg = Note book */}
         <Row style={{margin : "2px"}}>
-            <Col xs={12} md={4} lg={3}>
+            <Col xs={12} md={12} lg={12}>
               <Card>
-              <div className="embed-responsive embed-responsive-16by9">
-                <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/uw4fxIxsAgw" allowfullscreen></iframe>
-              </div>
+              <VideoCarousel />
                 <Card.Body>
-                  <Card.Title>ปรมาจารย์ ลัทธิเต๋า</Card.Title>
-                  <Card.Text>
-                    This is a longer card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col xs={12} md={4} lg={3}>
-              <Card>
-                <VideoCarousel />
-                <Card.Body>
-                  <Card.Title>แมว สลบ</Card.Title>
-                  <Card.Text>
-                    This is a longer card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col xs={12} md={4} lg={3}>
-              <Card>
-                <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" />
-                <Card.Body>
-                  <Card.Title>Cat Family</Card.Title>
-                  <Card.Text>
-                    This is a longer card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col xs={12} md={4} lg={3}>
-              <Card>
-                <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" />
-                <Card.Body>
-                  <Card.Title>Cat Family</Card.Title>
-                  <Card.Text>
-                    This is a longer card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-              </Card>
-            </Col>
-        </Row>
-        <Row style={{margin : "2px"}}>
-            <Col xs={12} md={4} lg={3}>
-              <Card>
-                <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" />
-                <Card.Body>
-                  <Card.Title>Cat Family</Card.Title>
-                  <Card.Text>
-                    This is a longer card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col xs={12} md={4} lg={3}>
-              <Card>
-                <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" />
-                <Card.Body>
-                  <Card.Title>Cat Family</Card.Title>
-                  <Card.Text>
-                    This is a longer card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col xs={12} md={4} lg={3}>
-              <Card>
-                <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" />
-                <Card.Body>
-                  <Card.Title>Cat Family</Card.Title>
-                  <Card.Text>
-                    This is a longer card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col xs={12} md={4} lg={3}>
-              <Card>
-                <Card.Img variant="top" src="/image/IMG_2827 Small.jpeg" />
-                <Card.Body>
-                  <Card.Title>Cat Family</Card.Title>
+                  <Card.Title>Cat Video</Card.Title>
                   <Card.Text>
                     This is a longer card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit

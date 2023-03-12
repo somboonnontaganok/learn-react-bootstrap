@@ -1,9 +1,9 @@
 import "./VideoCarousel.js";
 import React from "react";
 import { Carousel } from "react-bootstrap";
-// import Vid1 from "./videos/IMG_2486.MOV";
-import Vid1 from "./videos/IMG_2832.MOV";
-// import Vid3 from "./videos/IMG_2852.MOV";
+import Vid1 from "./videos/IMG_2486.MOV";
+import Vid2 from "./videos/IMG_2832.MOV";
+import Vid3 from "./videos/IMG_2852.MOV";
 import ReactPlayer from "react-player";
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -11,8 +11,20 @@ const VideoCarousel = () => {
     const videoProperties = [
         {
             id: 1,
-            title: "แมว สลบ",
+            title: "Video for fun",
             src: Vid1,
+            credit: "Video by me",
+        },
+        {
+            id: 2,
+            title: "Video for fun",
+            src: Vid2,
+            credit: "Video by me",
+        },
+        {
+            id: 3,
+            title: "Video for fun",
+            src: Vid3,
             credit: "Video by me",
         },
     ];
